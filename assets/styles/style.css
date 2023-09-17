@@ -1,0 +1,95 @@
+@font-face {
+  src: url(../fonts/Roboto-Light.woff2) format("woff2"),
+    url(../fonts/Roboto-Light.woff) format("woff");
+  font-family: "Roboto";
+}
+
+.root {
+  font-family: "Roboto", Times, serif;
+  margin: 0 5vw;
+}
+
+a {
+  text-decoration: none;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2%;
+}
+
+.button {
+  padding: 15px 15px;
+  border-radius: 100px;
+  background-color: #5222d0;
+  color: #fff;
+  text-align: center;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.main__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main__info_button {
+  width: 270px;
+  height: 70px;
+  flex-shrink: 0;
+  font-size: 35px;
+  font-weight: bold;
+  padding-top: 45px;
+}
+
+.main__img {
+  min-width: 50vw;
+  max-width: 100%;
+}
+
+.opportunity {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(2, auto-fit);
+}
+.opportunity__block {
+  padding: 5%;
+}
+
+.opportunity__img {
+  min-width: 25vw;
+  max-width: 100%;
+  height: 40vh;
+  background-color: #ec615b;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #ec615b;
+  color: #fff;
+  min-height: auto;
+  padding: 0 5%;
+}
+.form__button {
+  margin: 5% 0;
+}
+.footer {
+  color: #5222d0;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%;
+}
+.footer__nav {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5vw;
+  list-style: none;
+}
